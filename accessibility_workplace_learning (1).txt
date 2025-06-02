@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Accessibility in Workplace Learning</title>
+  <style>
+    body {
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+    }
+    a:hover, a:focus {
+      color: red;
+      text-decoration: underline;
+    }
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 8px;
+    }
+    th {
+      background-color: #d3d3d3;
+    }
+    .alt-paragraph {
+      font-family: 'Courier New', monospace;
+    }
+  </style>
+</head>
+<body>
+
+<a href="#maincontent" class="skip-link">Skip to main content</a>
+
+<h1>Why Accessibility Matters in Workplace Learning</h1>
+
+<h2 id="maincontent">Business and Legal Reasons</h2>
+<p>Organizations that prioritize accessibility gain a competitive advantage. <strong>Inclusive design</strong> not only expands market reach but also ensures compliance with regulations like the ADA and Section 508. Avoiding legal risks and reputational damage is a <em>sound business strategy</em>.</p>
+
+<h2>Ethical and Design Considerations</h2>
+<p class="alt-paragraph">Instructional designers, product managers, and UX professionals must acknowledge their role in building equitable access. Designing for people of all abilities means designing for everyone. Ignoring this is not just exclusionary, it's <strong>avoidable negligence</strong>.</p>
+
+<p>Accessibility contributes to higher retention, engagement, and productivity. For example, captions and transcripts help not only those with hearing impairments but also employees in noisy environments or non-native speakers. Accessibility is essential, not optional. H<sub>2</sub>O and E = mc<sup>2</sup> demonstrate how technical writing must also be made clear and inclusive.</p>
+
+<ul>
+  <li>Expanded reach</li>
+  <li>Regulatory compliance</li>
+  <li>Better user experience for all</li>
+</ul>
+
+<ol>
+  <li>Assess current accessibility</li>
+  <li>Implement WCAG standards</li>
+  <li>Test with real users</li>
+</ol>
+
+<p>Visit the <a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/" target="_blank">W3C Accessibility Overview</a> to learn more.</p>
+
+<img src="inclusive.jpg" alt="Illustration of inclusive teamwork">
+
+<img src="complex-chart.jpg" alt="Graph showing user engagement trends"
+     role="img" aria-describedby="chart-desc">
+<p id="chart-desc">This chart shows user engagement increasing by 25% over six months after accessibility improvements were implemented.</p>
+
+<table>
+  <caption>Accessibility Impact Metrics</caption>
+  <thead>
+    <tr>
+      <th scope="col">Metric</th>
+      <th scope="col">Before</th>
+      <th scope="col">After</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td scope="row">Completion Rate</td>
+      <td>68%</td>
+      <td>92%</td>
+    </tr>
+    <tr>
+      <td scope="row">User Satisfaction</td>
+      <td>70%</td>
+      <td>95%</td>
+    </tr>
+    <tr>
+      <td scope="row">Support Tickets</td>
+      <td>150</td>
+      <td>40</td>
+    </tr>
+  </tbody>
+</table>
+
+<form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+
+  <label><input type="checkbox" name="newsletter"> Subscribe to newsletter</label><br><br>
+
+  <label>Role:</label><br>
+  <label><input type="radio" name="role" value="designer"> Instructional Designer</label><br>
+  <label><input type="radio" name="role" value="pm"> Product Manager</label><br>
+  <label><input type="radio" name="role" value="ux"> UX Professional</label><br><br>
+
+  <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
